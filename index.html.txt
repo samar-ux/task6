@@ -1,0 +1,246 @@
+<DOCUMENT html>
+<html lang="en">
+    <head>
+ <meta charset="UTF-8">
+    <title>Task</title>
+    <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/all.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+<style>
+* {
+  box-sizing: border-box;
+
+}
+body { 
+	background: #D8D8D8;
+}
+			
+			
+body {width: auto;
+hieght: 2000px;
+}
+h1 {text-align: center;
+color: blue;
+font-size: 50px;
+}
+/**********/
+.gava {border-radius: 5px;
+width: 230px;
+hieght: 150px;
+background-color: grey;
+float: left;
+margin-left: 30px;
+margin-top: 30px;
+}
+
+.car1 {
+color: gold;
+list-style: none;
+font-size: 50px;
+ text-align: center;
+}
+#btn1 {background-color: black;
+color: gold;
+border-radius: 5px;
+width: 150px;
+hieght: 15px;
+dispaly: block;
+margin-left: 50px;
+
+}
+.gava {
+    transition: transform 0.5s;
+}
+.gava:hover{
+    transform: scale(1.1);
+}
+/**************/
+.car2 {
+color: a4133c;
+list-style: none;
+font-size: 50px;
+ text-align: center;
+}
+#btn2 {background-color: a4133c;
+color: grey;
+border-radius: 5px;
+width: 150px;
+hieght: 15px;
+dispaly: block;
+margin-left: 50px;
+
+}
+/***************/
+.car3 {
+color: 3c096c;
+list-style: none;
+font-size: 50px;
+ text-align: center;
+}
+#btn3 {background-color: 3c096c;
+color: white;
+border-radius: 5px;
+width: 150px;
+hieght: 15px;
+dispaly: block;
+margin-left: 50px;
+
+}
+/***********/
+.car4 {
+color: 386641;
+list-style: none;
+font-size: 50px;
+ text-align: center;
+}
+#btn4 {background-color: 386641;
+color: black;
+border-radius: 5px;
+width: 150px;
+hieght: 15px;
+dispaly: block;
+margin-left: 50px;
+}
+/***************/
+.car5 {
+color: 0077b6;
+list-style: none;
+font-size: 50px;
+ text-align: center;
+}
+#btn5 {background-color:0077b6;
+color: 000000;
+border-radius: 5px;
+width: 150px;
+hieght: 15px;
+dispaly: block;
+margin-left: 50px;
+}
+/***********/
+.car6 {
+color: 005f73;
+list-style: none;
+font-size: 50px;
+ text-align: center;
+}
+#btn6 {background-color: 005f73;
+color: gold;
+border-radius: 5px;
+width: 150px;
+hieght: 15px;
+dispaly: block;
+margin-left: 50px;
+}
+/*************/
+.car7 {
+color:  black;
+list-style: none;
+font-size: 50px;
+ text-align: center;
+}
+#btn7 {background-color: black;
+color: white;
+border-radius: 5px;
+width: 150px;
+hieght: 15px;
+dispaly: block;
+margin-left: 50px;
+}
+/***************/
+.car8 {
+color: 800f2f;
+list-style: none;
+font-size: 50px;
+ text-align: center;
+}
+#btn8 {background-color: 800f2f;
+color: black;
+border-radius: 5px;
+width: 150px;
+hieght: 15px;
+dispaly: block;
+margin-left: 50px;
+}
+#content2 {
+width: 400px;
+height: 30px;
+border-radius: 20px;
+color: blue;
+font-size: 30px;
+text-align: center;
+background-color: grey;
+margin-left: 330px;
+margin-top: 30px;
+}
+#content{
+width:400px ;
+min-height: 70px;
+background-color:grey;
+border-raduis:10px;
+}
+********800f2f
+/**************/
+</style>
+<body>
+
+<div id="content2">Car market
+</div>
+
+
+<div class="gava">
+ <img class="car1"src="images/de.jpg" width="230"  height="170">
+<button id="btn1" price="14000">show more</button>
+</div>
+
+
+<div class="gava">
+ <img class="car2"src="images/red11.jpg" width="230"  height="170">
+<button id="btn2" price="16000">show more</button>
+</div>
+
+<div class="gava">
+ <img class="car3"src="images/c11.jpg" width="230"  height="170">
+<button id="btn3" price="18000">show more</button>
+</div>
+
+
+<div class="gava">
+ <img class="car4"src="images/green.jpg" width="230"  height="170">
+<button id="btn4" price="20000">show more</button>
+</div>
+
+
+<div class="gava">
+ <img class="car5"src="images/bl11.jpg" width="230"  height="170">
+<button id="btn5" price="22000">show more</button>
+</div>
+
+
+<div class="gava">
+ <img class="car6"src="images/gr447.jpg" width="230"  height="170">
+<button id="btn6" price="24000">show more</button>
+</div>
+
+<div class="gava">
+ <img class="car7"src="images/black.jpg" width="230"  height="170">
+<button id="btn7" price="26000">show more</button>
+</div>
+
+
+
+<div class="gava">
+ <img class="car8"src="images/c44.jpg" width="230"  height="170">
+<button id="btn8" price="28000">show more</button>
+</div>
+
+</script>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+
+</html>
